@@ -1,0 +1,282 @@
+{
+    "components": {
+      "buttons": {
+        "description": "Buttons are interactive elements styled for different use cases.",
+        "classes": {
+          "eds-btn": {
+            "description": "Default button style",
+            "example": "<button class='eds-btn'>Default Button</button>",
+            "js":""
+          },
+          "eds-btn-primary": {
+            "description": "Primary action button",
+            "example": "<button class='eds-btn eds-btn-primary'>Primary Button</button>"
+          },
+          "eds-btn-secondary": {
+            "description": "Secondary action button",
+            "example": "<button class='eds-btn eds-btn-secondary'>Secondary Button</button>"
+          }
+        }
+      },
+      "containers": {
+        "description": "Containers are used to manage layout width.",
+        "classes": {
+          "eds-container": {
+            "description": "Fixed-width container",
+            "example": "<div class='eds-container'>Fixed-width content goes here.</div>"
+          },
+          "eds-container-fluid": {
+            "description": "Full-width container",
+            "example": "<div class='eds-container-fluid'>Full-width content goes here.</div>"
+          }
+        }
+      },
+      "forms": {
+        "description": "Forms for user input with predefined input types.",
+        "classes": {
+          "eds-form": {
+            "description": "Form container",
+            "example": "<div class='eds-form'><input class='eds-input' /></div>"
+          },
+          "eds-input": {
+            "description": "Default text input",
+            "example": "<input type='text' class='eds-input' placeholder='Enter text'>"
+          },
+          "eds-input-lg": {
+            "description": "Large text input",
+            "example": "<input type='text' class='eds-input eds-input-lg' placeholder='Large input'>"
+          },
+          "eds-input-sm": {
+            "description": "Small text input",
+            "example": "<input type='text' class='eds-input eds-input-sm' placeholder='Small input'>"
+          },
+          "eds-input-disabled": {
+            "description": "Disabled text input",
+            "example": "<input type='text' class='eds-input eds-input-disabled' placeholder='Disabled input' disabled>"
+          },
+          "eds-textarea": {
+            "description": "Multiline input",
+            "example": "<textarea class='eds-textarea' placeholder='Enter multiline text'></textarea>"
+          }
+        }
+      },
+      "tables": {
+        "description": "Data tables for structured data display.",
+        "classes": {
+          "eds-table": {
+            "description": "Basic table",
+            "example": "<table class='eds-table'>...</table>"
+          },
+          "eds-table-striped": {
+            "description": "Striped table rows",
+            "example": "<table class='eds-table eds-table-striped'>...</table>"
+          },
+          "eds-table-bordered": {
+            "description": "Table with borders",
+            "example": "<table class='eds-table eds-table-bordered'>...</table>"
+          },
+          "eds-table-hover": {
+            "description": "Hoverable table rows",
+            "example": "<table class='eds-table eds-table-hover'>...</table>"
+          },
+          "eds-table-sm": {
+            "description": "Smaller table",
+            "example": "<table class='eds-table eds-table-sm'>...</table>"
+          }
+        }
+      },
+      "cards": {
+        "description": "Cards for content blocks with header, body, and footer.",
+        "classes": {
+          "eds-card": {
+            "description": "Basic card container",
+            "example": "<div class='eds-card'>...</div>"
+          },
+          "eds-card-header": {
+            "description": "Card header",
+            "example": "<div class='eds-card-header'>Card Header</div>"
+          },
+          "eds-card-body": {
+            "description": "Card body",
+            "example": "<div class='eds-card-body'>Card body content</div>"
+          },
+          "eds-card-footer": {
+            "description": "Card footer",
+            "example": "<div class='eds-card-footer'>Card Footer</div>"
+          }
+        }
+      },
+      "modals": {
+        "description": "Modals for pop-up content or dialogs.",
+        "classes": {
+          "eds-modal": {
+            "description": "Modal container",
+            "example": "<div class='eds-modal'>...</div>"
+          },
+          "eds-modal-header": {
+            "description": "Modal header",
+            "example": "<div class='eds-modal-header'>Modal Header</div>"
+          },
+          "eds-modal-body": {
+            "description": "Modal body",
+            "example": "<div class='eds-modal-body'>Modal content</div>"
+          },
+          "eds-modal-footer": {
+            "description": "Modal footer",
+            "example": "<div class='eds-modal-footer'>Modal footer content</div>"
+          }
+        }
+      },
+      "navbar": {
+        "description": "Navigation bar for structuring page links.",
+        "classes": {
+          "eds-nav": {
+            "description": "Navigation container",
+            "example": "<nav class='eds-nav'>...</nav>"
+          },
+          "eds-nav-item": {
+            "description": "Navigation item",
+            "example": "<a class='eds-nav-link eds-nav-item' href='#'>Item</a>"
+          },
+          "eds-nav-link": {
+            "description": "Navigation link",
+            "example": "<a class='eds-nav-link' href='#'>Link</a>"
+          }
+        }
+      },
+      "alerts": {
+        "description": "Alerts for displaying notifications.",
+        "classes": {
+          "eds-alert": {
+            "description": "Basic alert",
+            "example": "<div class='eds-alert'>Alert message</div>"
+          },
+          "eds-alert-success": {
+            "description": "Success alert",
+            "example": "<div class='eds-alert eds-alert-success'>Success message</div>"
+          },
+          "eds-alert-danger": {
+            "description": "Danger alert",
+            "example": "<div class='eds-alert eds-alert-danger'>Danger message</div>"
+          }
+        }
+      },
+      "pagination": {
+        "description": "Pagination for navigating content across multiple pages.",
+        "classes": {
+          "eds-pagination": {
+            "description": "Pagination container",
+            "example": "<ul class='eds-pagination'>...</ul>"
+          },
+          "eds-pagination-item": {
+            "description": "Pagination item",
+            "example": "<li class='eds-pagination-item'><a href='#'>1</a></li>"
+          },
+          "eds-pagination-link": {
+            "description": "Pagination link",
+            "example": "<a class='eds-pagination-link' href='#'>Link</a>"
+          }
+        }
+      }
+    },
+    "styles": {
+      "buttons": {
+        "eds-btn": {
+          "padding": "10px 20px",
+          "font-size": "16px",
+          "border": "none",
+          "border-radius": "4px",
+          "cursor": "pointer",
+          "display": "inline-block"
+        },
+        "eds-btn-primary": {
+          "background-color": "#007bff",
+          "color": "white"
+        },
+        "eds-btn-secondary": {
+          "background-color": "#6c757d",
+          "color": "white"
+        }
+      },
+      "containers": {
+        "eds-container": {
+          "max-width": "1200px",
+          "margin": "0 auto",
+          "padding": "15px"
+        },
+        "eds-container-fluid": {
+          "width": "100%",
+          "padding": "15px"
+        }
+      },
+      "forms": {
+        "eds-form": {
+          "display": "flex",
+          "flex-direction": "column",
+          "gap": "10px"
+        },
+        "eds-input": {
+          "width": "100%",
+          "padding": "8px",
+          "font-size": "14px",
+          "border": "1px solid #ccc",
+          "border-radius": "4px"
+        },
+        "eds-input-lg": {
+          "padding": "12px",
+          "font-size": "16px"
+        },
+        "eds-input-sm": {
+          "padding": "6px",
+          "font-size": "12px"
+        },
+        "eds-input-disabled": {
+          "background-color": "#e9ecef",
+          "cursor": "not-allowed"
+        }
+      },
+      "tables": {
+        "eds-table": {
+          "width": "100%",
+          "border-collapse": "collapse",
+          "margin-top": "10px"
+        },
+        "eds-table-striped": {
+          "background-color": "#f9f9f9"
+        },
+        "eds-table-bordered": {
+          "border": "2px solid #ddd"
+        },
+        "eds-table-hover": {
+          "background-color": "#f1f1f1"
+        },
+        "eds-table-sm": {
+          "padding": "4px"
+        }
+      },
+      "colors": {
+        "red": {
+          "button": {
+            "background-color": "red",
+            "color": "white"
+          },
+          "background": {
+            "background-color": "red"
+          }
+        },
+        "blue": {
+          "button": {
+            "background-color": "#007bff",
+            "color": "white"
+          }
+        },
+        "green": {
+          "button": {
+            "background-color": "#28a745",
+            "color": "white"
+          }
+        }
+      }
+    }
+  }
+  
